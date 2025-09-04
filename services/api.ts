@@ -6,7 +6,7 @@ import { Note, User } from '../types';
 // 1. CONFIGURE AXIOS INSTANCE
 // This instance will be the foundation for all API calls.
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080', // Fallback 
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://notes-application-backend-k84y.onrender.com/', // Fallback 
 });
 
 // Interceptor to automatically add the JWT to every request
